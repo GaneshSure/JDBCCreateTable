@@ -29,6 +29,7 @@ public class CreateTable {
 			st.executeUpdate(sql);
 			System.out.println("table created successfully");
 			con.close();
+			System.out.println("connection closed suceesfully");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
