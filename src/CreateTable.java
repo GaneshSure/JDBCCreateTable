@@ -30,6 +30,7 @@ public class CreateTable {
 			System.out.println("table created successfully");
 			con.close();
 			System.out.println("connection closed suceesfully");
+			System.out.println("table created successfully");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
